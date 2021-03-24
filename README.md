@@ -1,5 +1,5 @@
 # Esteban_Desegregación_decil_más_rico
-Data Science portafolio
+Data Science proyecto 1
 
 ## 1. Data Science Desegregación del decil más rico: Planeación y recolección de datos del proyecto
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
