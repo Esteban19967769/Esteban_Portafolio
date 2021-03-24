@@ -28,9 +28,8 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 ## 3. EDA. Análisis exploratorio de datos
  A continuación se muestran algunos aspectos destacados de las tablas dinámicas
 
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://github.com/Esteban19967769/Esteban_Proyecto1/blob/3fc62be072d73968f5f4e115b4895618f6ce1a47/Arbol2017.png)
+
 
 
 ## 4. Model Building 
