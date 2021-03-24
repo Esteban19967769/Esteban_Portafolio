@@ -8,16 +8,21 @@ Data Science proyecto 1
 * Se utilizó la Casen 2009 y 2017 para el análisis de datos de las variables. La muestra se acota a los encuestados de la Casen, que corresponden al 10% más rico de la población, respecto al ingreso con subsidios del Estado del jefe de hogar entre 18 y 65 años. 
 * Se utilizará estadística descriptiva y a través de metodología de árboles de decisión se desagregará el decil más rico de la población, entregando datos relevantes del 10% más rico de Chile con estas características para finalmente caracterizar con las variables correspondientes.
 
-## 2. Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+## 2. Limpieza de datos
+Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 
-*	Parsed numeric data out of salary 
-*	Made columns for employer provided salary and hourly wages 
-*	Removed rows without salary 
-*	Parsed rating out of company text 
-*	Made a new column for company state 
-*	Added a column for if the job was at the company’s headquarters 
-*	Transformed founded date into age of company 
+#### Para 2017 y 2009:
+*	Filtrar por solo las columnas de interés con las variables: "Zona","Factor_expansión","Paretesco_jefehogar","Sexo","Edad","Ingreso_autónomo", "Ingreso_Total","Ingreso_aut_corr", "Ingreso_tot_corr", "Escolaridad","Deciles", "Núm_per_hogar"
+*	Eliminar outliers 
+*	Filtrar por decil más rico 10% y personas entre 18 y 65 años 
+*	Made columns for if different skills were listed in the job description: 
+    * R  
+    * Stata
+    * CSV  
+
+#### Para solo 2009:
+* Ajustar el ingreso total del IPC 2009 a 2017 con un reajuste del 27,7%
+* Creación nueva columna de IPC reajustado
 *	Made columns for if different skills were listed in the job description: 
     * R  
     * Excel  
