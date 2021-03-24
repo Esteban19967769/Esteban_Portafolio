@@ -2,11 +2,11 @@
 Data Science proyecto 1
 
 ## 1. Data Science Desegregación del decil más rico: Planeación y recolección de datos del proyecto
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
-* Scraped over 1000 job descriptions from glassdoor using python and selenium
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
+* El ingreso es la variable más importante para estudiar la desigualdad económica 
+* Se creará una herramienta que analice la desigualdad económica enfocado en la caracterización del 10% más rico de Chile
+* Se describirán variables como el sexo, el número de personas por hogar, escolaridad y edad 
+* Se utilizó la Casen 2009 y 2017 para el análisis de datos de las variables. La muestra se acota a los encuestados de la Casen, que corresponden al 10% más rico de la población, respecto al ingreso con subsidios del Estado del jefe de hogar entre 18 y 65 años. 
+* Se utilizará estadística descriptiva y a través de metodología de árboles de decisión se desagregará el decil más rico de la población, entregando datos relevantes del 10% más rico de Chile con estas características para finalmente caracterizar con las variables correspondientes.
 
 ## 2. Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
