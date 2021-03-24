@@ -13,7 +13,7 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 
 #### Para 2017 y 2009:
 *	Filtrar por solo las columnas de interés con las variables: "Zona","Factor_expansión","Paretesco_jefehogar","Sexo","Edad","Ingreso_autónomo", "Ingreso_Total","Ingreso_aut_corr", "Ingreso_tot_corr", "Escolaridad","Deciles", "Núm_per_hogar"
-*	Eliminar outliers 
+*	Eliminar NA 
 *	Filtrar por decil más rico 10% y personas entre 18 y 65 años 
 *	Made columns for if different skills were listed in the job description: 
     * R  
@@ -23,14 +23,10 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 #### Para solo 2009:
 * Ajustar el ingreso total del IPC 2009 a 2017 con un reajuste del 27,7%
 * Creación nueva columna de IPC reajustado
-*	Made columns for if different skills were listed in the job description: 
-    * R  
-    * Excel  
-*	Column for simplified job title and Seniority 
-*	Column for description length 
+
 
 ## 3. EDA. Análisis exploratorio de datos
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
+ A continuación se muestran algunos aspectos destacados de las tablas dinámicas
 
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
