@@ -1,7 +1,7 @@
 # Esteban_Portafolio
 Data Science portafolio
 
-## 1. Data Science Desegregación del decil más rico: Planeación y recolección de datos del proyecto 
+## [1. Data Science Desegregación del decil más rico: Planeación y recolección de datos del proyecto](https://esteban19967769.github.io/Esteban_Portafolio/)
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
