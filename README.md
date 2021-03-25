@@ -37,7 +37,7 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 ![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/e61ccf2f5626a7fae29deed15c93191deb45032b/summary2009.png)
 
 
-## 4. Model Building 
+## 4. Construcción del modelo 
 
 * Primero, se dividen los datos en conjuntos de pruebas y entrenamientos con un tamaño de entrenamiento del 80%.
 * Para modelar el arbol de decisión se debe tener en cuenta la variable de factor expansión dado que se trabaja con una encuesta.
@@ -47,9 +47,15 @@ Se modelaron 2 esquemas de probabilidad clasificatorios utlizando el método ANO
 *	**Arbol de decisión para 2017** 
 *	**Arbol de decisión para 2009 ajustado el ingreso al IPC** 
 
-## 5. Model performance
+## 5. Performance del modelo
 
 El cp de cada modelo es fundamental para su explicación
+
+* Se extrae que de las 4 variables independientes, el árbol podó seleccionando las variables que se ajustan de mejor forma al modelo, eligiendo a las variables edad, número de personas en el hogar y escolaridad para el 2009; y número de personas en el hogar, escolaridad y sexo para el 2017.
+
+* Se destaca que en esta comparación de la década (Casen 2009 y 2017) se obtienen en común las variables número de personas en el hogar y escolaridad. Para el año 2009 el promedio del ingreso total del jefe de hogar es de $2.900.000 pesos chilenos y para el 2017 es de $2.300.000 pesos chilenos para el decil más rico de la muestra total.
+
+* 
 
 ### 2017
 ![alt text](https://github.com/Esteban19967769/Esteban_Proyecto1/blob/3fc62be072d73968f5f4e115b4895618f6ce1a47/Arbol2017.png)
@@ -58,9 +64,13 @@ El cp de cada modelo es fundamental para su explicación
 ![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/554948ab00ae62f6d73d40f70a11890c9219dd51/Rplot20090.png)
 
 
+## 6. Conclusiones
 
+* En síntesis, en el decil más rico existen serias desigualdades, pues el 1% más rico gana 26,93 veces más que el 1% más pobre de este decil para el 2009 y 58,6 veces para el 2017, lo que demuestra de forma empírica la desigualdad que existe incluso en el decil más rico de Chile.
 
+* Respecto a los árboles de decisión, queda caracterizado que, el 10% más rico de la población percibe en promedio $2.900.000 pesos chilenos para el 2009 y $2.300.000 pesos chilenos para el 2017 y los árboles modelan la selección de las variables que caracterizan al 10% más rico de la población, en las cuales se cuenta con edad, número de personas en el hogar y escolaridad para el 2009; y número de personas en el hogar, escolaridad y sexo para el 2017, teniendo en común las variables número de personas en el hogar y escolaridad en ambos períodos. También se describió la variable años de escolaridad para ambos períodos, destacando que la moda para ambos perídos se concentra en 17 años de escolaridad (carrera universitaria completa) y que para el 2009 los años de escolaridad llegaban a 20 y en 2017 a 22 años.
 
+* ¿cómo desagregar el 10% más rico de Chile? y ¿de qué forma se puede caracterizar al 10% más rico en Chile? Se responde que es por medio de la metodología de los árboles de decisión, dado que este método de machine learning, permite clasificar a las variables y el resultado de la minimización del algoritmo permite conocer valores de la variable dependiente y la selección de las variables independientes, para este caso la desagregación del 10% más rico queda caracterizada por las variables edad, número de personas en el hogar y escolaridad para el 2009; y número de personas en el hogar, escolaridad y sexo para el 2017. Se cumplió el objetivo general de esta investigación, pues se caracterizó al decil más rico de la población chilena para los años 2009 y 2017.
 
 
 
