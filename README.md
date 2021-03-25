@@ -28,7 +28,7 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 ## 3. EDA. Análisis exploratorio de datos
  A continuación se muestran algunos aspectos destacados de las tablas dinámicas
 
-
+![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/554f2d139c35ad73ae3cd3eea4fd52c4619061fa/Rplot.png)
 
 ## 4. Model Building 
 
