@@ -39,9 +39,9 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 
 ## 4. Model Building 
 
-Primero, se dividen los datos en conjuntos de pruebas y entrenamientos con un tamaño de entrenamiento del 80%.
-Para modelar el arbol de decisión se debe tener en cuenta la variable de factor expansión dado que se trabaja con una encuesta.
-Como variable dependiente se tiene el ingreso total (incluidos subsidios del estado), sexo como dummy, números de personas que viven en el hogar, edad y escolaridad.
+##### Primero, se dividen los datos en conjuntos de pruebas y entrenamientos con un tamaño de entrenamiento del 80%.
+##### Para modelar el arbol de decisión se debe tener en cuenta la variable de factor expansión dado que se trabaja con una encuesta.
+##### Como variable dependiente se tiene el ingreso total (incluidos subsidios del estado), sexo como dummy, números de personas que viven en el hogar, edad y escolaridad.
 
 Se modelaron 2 esquemas de probabilidad clasificatorios utlizando el método ANOVA:
 *	**Arbol de decisión para 2017** 
