@@ -35,7 +35,7 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 ### 2009
 
 ![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/d39673e4c3a45534adf42c48d80313fa1c476285/rplot2009.png)
-
+![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/e61ccf2f5626a7fae29deed15c93191deb45032b/summary2009.png)
 
 
 ## 4. Model Building 
