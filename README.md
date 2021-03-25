@@ -28,8 +28,6 @@ Aplicación de lenguaje CRUD: crear, leer, actualizar y borrar:
 ## 3. EDA. Análisis exploratorio de datos
  A continuación se muestran algunos aspectos destacados de las tablas dinámicas
 
-![alt text](https://github.com/Esteban19967769/Esteban_Proyecto1/blob/3fc62be072d73968f5f4e115b4895618f6ce1a47/Arbol2017.png)
-
 
 
 ## 4. Model Building 
@@ -50,6 +48,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Ridge Regression**: MAE = 19.67
 
 
+![alt text](https://github.com/Esteban19967769/Esteban_Proyecto1/blob/3fc62be072d73968f5f4e115b4895618f6ce1a47/Arbol2017.png)
 
 
 
