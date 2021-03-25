@@ -55,9 +55,11 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Linear Regression**: MAE = 18.86
 *	**Ridge Regression**: MAE = 19.67
 
-
+### 2017
 ![alt text](https://github.com/Esteban19967769/Esteban_Proyecto1/blob/3fc62be072d73968f5f4e115b4895618f6ce1a47/Arbol2017.png)
 
+### 2009
+![alt text](https://github.com/Esteban19967769/Esteban_Proyect1/blob/554948ab00ae62f6d73d40f70a11890c9219dd51/Rplot20090.png)
 
 
 
